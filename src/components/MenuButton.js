@@ -25,9 +25,9 @@ export default class MenuButton extends React.Component {
           menu
         </DropdownToggle>
         <DropdownMenu style={menubutton}>
-          <DropdownItem header>Header</DropdownItem>
-          
-          <DropdownItem>Quo Action</DropdownItem>
+        <DropdownItem>Meets</DropdownItem>
+        <DropdownItem>Gear</DropdownItem>
+          <DropdownItem>Athletes</DropdownItem>
         </DropdownMenu>
       </Dropdown>
     );
@@ -38,11 +38,12 @@ const menubuttonspace ={
   float:'left',
   top:'-16px',
   right:'20px',
+  
 }
 
 const menubutton ={
   paddingTop:'0px',
- 
+  borderRadius:'15px',
   paddingBottom:'0px',
   paddingRight:'0px',
   paddingLeft:'0px',
