@@ -7,7 +7,28 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <MediaQuery query="(min-device-width: 380px) and (max-device-width: 580px)">
+        {/* <MediaQuery query="(min-device-width: 284px) and (max-device-width: 380px)">
+        <div style={container}>
+            <Nav style={navbarstyle}>
+              <NavItem style={navtext} >
+                <NavLink href="#" style={navtextcolr} >Athletes | </NavLink>
+              </NavItem>
+              <NavItem style={navtext}>
+                <NavLink style={navtextcolr} href="#">Sponsors</NavLink>
+              </NavItem>
+              <NavItem style={navtext}>
+                <NavLink style={navtextcolr} href="#">Gear</NavLink>
+              </NavItem>
+              <NavItem style={navtext}>
+                <NavLink style={navtextcolr} href="#">Meets</NavLink>
+              </NavItem>
+            </Nav>
+          </div>
+          </MediaQuery> */}
+       
+        
+
+       <MediaQuery query="(min-device-width: 480px) and (max-device-width: 758px)">
           <div style={container}>
             <Nav style={navbarstyle}>
               <NavItem style={navtext} >
@@ -26,7 +47,7 @@ export default class Example extends React.Component {
           </div>
         </MediaQuery>
 
-        <MediaQuery query="(min-device-width: 580px) and (max-device-width: 780px)">
+        <MediaQuery query="(min-device-width: 758px) and (max-device-width: 1024px)">
           <div style={container}>
 
             <Nav style={navbarstyle2}>
@@ -45,7 +66,7 @@ export default class Example extends React.Component {
             </Nav>
           </div>
         </MediaQuery>
-        <MediaQuery query="(min-device-width: 780px) and (max-device-width: 2200px)">
+        <MediaQuery query="(min-device-width: 1024px) and (max-device-width: 2000px)">
           <div style={container3}>
 
             <Nav style={navbarstyle3}>
@@ -74,6 +95,7 @@ export default class Example extends React.Component {
 // containers
 const container3={
   paddingTop:'0px',
+  border:'none',
 }
 
 // containers//
@@ -82,7 +104,7 @@ const container3={
 
 
 const container={
-  paddingTop:'5px',
+  paddingTop:'10px',
 }
 const navbarstyle = {
   paddingTop: '10px',
@@ -94,22 +116,25 @@ const navbarstyle = {
   boxShadow: '0px 32px 32px rgba(0, 0, 0, 0.25)',
 }
 const navbarstyle2 = {
+  
   paddingTop: '10px',
-  backgroundColor: '#D8E7E4',
+  backgroundColor: 'orange',
   margin: '0 auto',
-  width: '38%',
+  border:'none',
+  width: '100%',
   height:'20%',
   textAlign: 'center',
-  borderRadius: '15px',
+ 
 }
 const navbarstyle3 = {
   // paddingTop: '10px',
   backgroundColor: '#D8E7E4',
   margin: '0 auto',
-  width: '38%',
+  width: '100%',
   textAlign: 'center',
   borderRadius: '2px',
   height:'40px',
+  border:'none',
 }
 
 const navtext = {

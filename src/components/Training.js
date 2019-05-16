@@ -2,13 +2,19 @@ import React from 'react';
 import { Card, CardTitle, CardText, CardImg, CardImgOverlay } from 'reactstrap';
 import MediaQuery from 'react-responsive';
 
+
+
+
+
+
+
 const Training = (props) => {
   return (
     <div>
-      <MediaQuery maxDeviceWidth={380}>
+      <MediaQuery query="(min-device-width: 284px) and (max-device-width: 480px)">
         <div style={divcontrol}>
           <Card inverse style={header1}>
-            <CardImg width="100%"  src="https://winthemes.me/i/c/720x380//media/629/image00005.jpg" alt="Card image cap" />
+            <CardImg width="100%"  src="/img/3074356-barbell_bodybuilding_effort_exercise_fitness_gym_man_muscles_person_strong_training_weightlifting.jpg" />
             <CardImgOverlay>
               <CardTitle style={text}>Becoming Strength</CardTitle>
               <CardText style={text2}>Total traing system where your POWER is our Priority</CardText>
@@ -17,10 +23,10 @@ const Training = (props) => {
           </Card>
         </div>
       </MediaQuery>
-      <MediaQuery query="(min-device-width: 379px) and (max-device-width: 580px)">
+      <MediaQuery query="(min-device-width: 480px) and (max-device-width: 758px)">
         <div style={divcontrol}>
           <Card inverse style={header1}>
-            <CardImg width="100%" src="https://winthemes.me/i/c/720x380//media/629/image00005.jpg" alt="Card image cap" />
+            <CardImg width="100%" src="/img/3074356-barbell_bodybuilding_effort_exercise_fitness_gym_man_muscles_person_strong_training_weightlifting.jpg" />
             <CardImgOverlay>
               <CardTitle style={texts1}>Becoming Strength</CardTitle>
               <CardText style={texts2}>Total traing system where your POWER is our Priority</CardText>
@@ -29,10 +35,11 @@ const Training = (props) => {
           </Card>
         </div>
       </MediaQuery>
-      <MediaQuery query="(min-device-width: 580px) and (max-device-width: 780px)">
-        <div style={divcontrol2}>
+      
+      <MediaQuery query="(min-device-width: 758px) and (max-device-width: 1024px)">
+      <div style={divcontrol2}>
           <Card inverse style={header2}>
-            <CardImg width="100%" src="https://winthemes.me/i/c/720x380//media/629/image00005.jpg" alt="Card image cap" />
+            <CardImg width="100%" src="/img/3074356-barbell_bodybuilding_effort_exercise_fitness_gym_man_muscles_person_strong_training_weightlifting (1).jpg" alt="Card image cap" />
             <CardImgOverlay>
               <CardTitle style={texts1_1}>Becoming Strength</CardTitle>
               <CardText style={texts2_2}>Total traing system where your POWER is our Priority</CardText>
@@ -41,10 +48,10 @@ const Training = (props) => {
           </Card>
         </div>
       </MediaQuery>
-      <MediaQuery query="(min-device-width: 780px) and (max-device-width: 2200px)">
+      <MediaQuery query="(min-device-width: 1024px) and (max-device-width: 2000px)">
         <div style={divcontrol3}>
           <Card inverse style={header3}>
-            <CardImg width="100%" src="https://winthemes.me/i/c/720x380//media/629/image00005.jpg" alt="Card image cap" />
+            <CardImg width="100%" src="/img/3074356-barbell_bodybuilding_effort_exercise_fitness_gym_man_muscles_person_strong_training_weightlifting (1).jpg" alt="Card image cap" alt="Card image cap" />
             <CardImgOverlay>
               <CardTitle style={texts1_2}>Becoming Strength</CardTitle>
               <CardText style={texts2_3}>Total traing system where your POWER is our Priority</CardText>
@@ -65,7 +72,8 @@ const divcontrol = {
 }
 
 const header1 = {
-
+  // borderColor:'rgba(1, 151, 246, 1)',
+  borderWidth:' 5px',
   overflow: 'hidden',
   // position:'relative',
   margin:'0 auto',
@@ -104,7 +112,7 @@ const texts1 = {
 
 const texts2 = {
   position: 'relative',
-  width: '45%',
+  width: '100%',
   fontSize: '3.2vw',
   float: 'right',
   bottom: '40px',
@@ -113,34 +121,38 @@ const texts2 = {
 }
 //no more mobile display
 const divcontrol2 = {
-  paddingTop: '10px',
+  
+  // paddingTop: '10px',
 }
 
 const header2 = {
+  border:'none',
   overflow: 'hidden',
   margin: '0 auto',
-  width: '38%',
+  width: '100%',
   height: '15%',
-  borderRadius: '15px',
+  
   boxShadow: '0px 32px 32px rgba(0, 0, 0, 0.25)',
 
 }
 
 const texts1_1= {
   position: 'relative',
-  top: '-20px',
-  fontSize: '2.4vw',
-  color: 'orange',
+  top: '40px',
+  fontSize: '3.4vw',
+  color: 'red',
   width: '50%',
 }
 
 const texts2_2 = {
   position: 'relative',
-  width: '45%',
+  textAlign:'center',
+  width: '30%',
   fontSize: '2.4vw',
+  top: '-10px',
   float: 'right',
   bottom: '80px',
-  left: '20px',
+  left: '-50px',
 
 }
 
@@ -153,7 +165,7 @@ const divcontrol3 = {
 const header3 = {
   overflow: 'hidden',
   margin: '0 auto',
-  width: '38%',
+  width: '100%',
   height: '15%',
   
   boxShadow: '0px 32px 32px rgba(0, 0, 0, 0.25)',
