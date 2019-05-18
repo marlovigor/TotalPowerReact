@@ -39,9 +39,9 @@ const Header = (props) => {
     </div>
     </MediaQuery>
     <MediaQuery query="(min-device-width: 758px) and (max-device-width: 1024px)">
-    <div style={header3}>
-      <Card inverse>
-        <CardImg width="100%" height="80px" src="https://wallpaperplay.com/walls/full/6/9/8/60291.jpg" />
+    <div style={header2}>
+      <Card inverse style={header2}>
+        <CardImg style={{border:'none'}} width="100%" height="80px" src="https://wallpaperplay.com/walls/full/6/9/8/60291.jpg" />
         <CardImgOverlay>
           {/* <CardTitle style={title1}>TOTAL POWER</CardTitle> */}
           <CardTitle style={title3}>
@@ -55,7 +55,7 @@ const Header = (props) => {
     </MediaQuery>
     <MediaQuery query="(min-device-width: 1024px) and (max-device-width: 2000px)">
     <div style={header3}>
-      <Card inverse>
+      <Card inverse style={header3}>
         <CardImg width="100%" height="110px" src="https://wallpaperplay.com/walls/full/6/9/8/60291.jpg" />
         <CardImgOverlay>
           {/* <CardTitle style={title1}>TOTAL POWER</CardTitle> */}
@@ -114,7 +114,7 @@ const title2={
     const header1_1 ={
       // position:'relative',
       margin:'0 auto',
-      
+      border:'none',
       width: '90%',
       height:'100%',
       borderRadius: '15px',
@@ -132,6 +132,21 @@ const header1 ={
   // boxShadow: '0px 32px 32px rgba(0, 0, 0, 0.25)',
 
 }
+const header2 ={
+  border:'none',
+  position:'relative',
+  borderRadius: '20px',
+  margin:'0 auto',
+  hieght:'20px',
+  width: '100%',
+  
+  boxShadow: '0px 32px 32px rgba(0, 0, 0, 0.25)',
+  // backgroundSize: 'cover',
+  backgroundRepeat: 'no - repeat',
+  
+
+}
+
 const header3 ={
   border:'none',
   position:'relative',

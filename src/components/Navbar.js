@@ -32,7 +32,7 @@ export default class Example extends React.Component {
           <div style={container}>
             <Nav style={navbarstyle}>
               <NavItem style={navtext} >
-                <NavLink href="#" style={navtextcolr} >Athletes | </NavLink>
+                <NavLink href="#" style={navtextcolr} >Athletes</NavLink>
               </NavItem>
               <NavItem style={navtext}>
                 <NavLink style={navtextcolr} href="#">Sponsors</NavLink>
@@ -95,7 +95,6 @@ export default class Example extends React.Component {
 // containers
 const container3={
   paddingTop:'0px',
-  border:'none',
 }
 
 // containers//
@@ -105,10 +104,11 @@ const container3={
 
 const container={
   paddingTop:'10px',
+  border:'none',
 }
 const navbarstyle = {
   paddingTop: '10px',
-  backgroundColor: 'orange',
+  backgroundColor: 'rgba(68, 143, 163, 1)',
   margin: '0 auto',
   width: '80%',
   textAlign: 'center',
@@ -116,25 +116,23 @@ const navbarstyle = {
   boxShadow: '0px 32px 32px rgba(0, 0, 0, 0.25)',
 }
 const navbarstyle2 = {
-  
-  paddingTop: '10px',
-  backgroundColor: 'orange',
-  margin: '0 auto',
   border:'none',
+  paddingTop: '10px',
+  backgroundColor: 'rgba(68, 143, 163, 1)',
+  margin: '0 auto',
   width: '100%',
   height:'20%',
   textAlign: 'center',
  
 }
 const navbarstyle3 = {
+  border:'none',
   // paddingTop: '10px',
-  backgroundColor: '#D8E7E4',
+  backgroundColor: 'rgba(68, 143, 163, 1)',
   margin: '0 auto',
   width: '100%',
   textAlign: 'center',
-  borderRadius: '2px',
-  height:'40px',
-  border:'none',
+
 }
 
 const navtext = {

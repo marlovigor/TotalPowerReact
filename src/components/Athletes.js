@@ -43,6 +43,20 @@ const Athletes = (props) => {
       
       
       </MediaQuery>
+      <MediaQuery query="(min-device-width: 1024px) and (max-device-width: 2000px)">
+      <div style={divcontrol3}>
+          <Card inverse style={header3}>
+            <CardImg width="100%" src="https://madnessmedia.net/wp-content/uploads/2018/08/Thumb-no-bars-1-8-758x426.jpg" alt="Card image cap" />
+            <CardImgOverlay>
+              <CardTitle style={text3}>The Athletes</CardTitle>
+              
+
+            </CardImgOverlay>
+          </Card>
+        </div>
+      
+      
+      </MediaQuery>
 
     </div>
   );
@@ -57,6 +71,7 @@ const divcontrol={
 const header1={
     margin:'0 auto',
     width: '80%',
+    borderWidth:' 5px',
     height:'100%',
     borderRadius: '15px',
 }
@@ -83,7 +98,7 @@ const divcontrol2={
 const header2={
     margin:'0 auto',
     width: '80%',
-    
+    borderWidth:' 5px',
     height:'100%',
     
     borderRadius: '15px',
@@ -105,7 +120,7 @@ const text2={
 const divcontrol3={
   border:'2px solid rgb(148, 45, 45)',
   left:'200px',
-
+  border:'none',
   width: '100%',
   position:'absolute',
   // borderRadius: '15px',

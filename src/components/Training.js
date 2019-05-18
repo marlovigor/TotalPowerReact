@@ -94,7 +94,8 @@ const text = {
 
 const text2 = {
   position: 'relative',
-  width: '45%',
+  width: '30%',
+  fontFamily: 'Kanit sans-serif',
   fontSize: '2.7vw',
   float: 'right',
   bottom: '35px',
@@ -112,8 +113,9 @@ const texts1 = {
 
 const texts2 = {
   position: 'relative',
-  width: '100%',
+  width: '30%',
   fontSize: '3.2vw',
+  fontFamily: 'Kanit sans-serif',
   float: 'right',
   bottom: '40px',
   left: '20px',
@@ -159,10 +161,12 @@ const texts2_2 = {
 // final desktop
 
 const divcontrol3 = {
+  border:'none',
   paddingTop: '0px',
 }
 
 const header3 = {
+  border:'none',
   overflow: 'hidden',
   margin: '0 auto',
   width: '100%',

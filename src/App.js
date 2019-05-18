@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Navebar from './components/Navbar';
 import Training from './components/Training';
 import Athletes from './components/Athletes';
+import Product from  './components/Product';
 
 
 import './App.css';
@@ -17,6 +18,7 @@ function App() {
      <Navebar />
      <Training />
      <Athletes />
+     <Product />
     </div>
 
   );
