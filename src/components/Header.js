@@ -12,7 +12,7 @@ const Header = (props) => {
     <MediaQuery query="(min-device-width: 284px) and (max-device-width: 480px)">
     <div style={header1_1}>
       <Card inverse style={header1}>
-        <CardImg style={{borderRadius:'15px'}}width="100%"  src="http://sfwallpaper.com/images/weightlifting-wallpapers-10.jpg" />
+        <CardImg style={{borderRadius:'15px'}}width="100%"  src="https://png.pngtree.com/thumb_back/fw800/back_pic/00/05/05/945625dd9c15f1b.jpg" />
         <CardImgOverlay>
         <MenuButton style={menubutton}/>
           {/* <CardTitle style={title1}>TOTAL POWER</CardTitle> */}
@@ -41,7 +41,7 @@ const Header = (props) => {
     <MediaQuery query="(min-device-width: 758px) and (max-device-width: 1024px)">
     <div style={header2}>
       <Card inverse style={header2}>
-        <CardImg style={{border:'none'}} width="100%" height="80px" src="https://wallpaperplay.com/walls/full/6/9/8/60291.jpg" />
+        <CardImg style={{border:'none'}} width="100%" height="80px" src="https://png.pngtree.com/thumb_back/fw800/back_pic/00/05/05/945625dd9c15f1b.jpg" />
         <CardImgOverlay>
           {/* <CardTitle style={title1}>TOTAL POWER</CardTitle> */}
           <CardTitle style={title3}>
@@ -56,7 +56,7 @@ const Header = (props) => {
     <MediaQuery query="(min-device-width: 1024px) and (max-device-width: 2000px)">
     <div style={header3}>
       <Card inverse style={header3}>
-        <CardImg width="100%" height="110px" src="https://wallpaperplay.com/walls/full/6/9/8/60291.jpg" />
+        <CardImg width="100%" height="110px" src="https://png.pngtree.com/thumb_back/fw800/back_pic/00/05/05/945625dd9c15f1b.jpg" />
         <CardImgOverlay>
           {/* <CardTitle style={title1}>TOTAL POWER</CardTitle> */}
           <CardTitle style={title3}>
@@ -81,8 +81,6 @@ top:'20px',
 color:'rgba(215, 38, 61, 1)',
 fontFamily: 'Faster One ,cursive',
 
-
-
 }
 const title2={
   transform: 'rotate(-20deg)',
@@ -104,11 +102,7 @@ const title2={
     fontSize:'4.1vw',
     margin:'0 auto',
     color:'white',
-    
-        fontFamily: 'Lato, sans-serif',
-    
-    
-    
+    fontFamily: 'Black Ops One, cursive',
     }
 
     const header1_1 ={
@@ -135,8 +129,9 @@ const header1 ={
 const header2 ={
   border:'none',
   position:'relative',
-  borderRadius: '20px',
+ 
   margin:'0 auto',
+  
   hieght:'20px',
   width: '100%',
   

@@ -31,6 +31,10 @@ export default class Example extends React.Component {
        <MediaQuery query="(min-device-width: 480px) and (max-device-width: 758px)">
           <div style={container}>
             <Nav style={navbarstyle}>
+            
+            <NavItem style={navtext}>
+                <NavLink style={navtextcolr} href="#">Home</NavLink>
+              </NavItem>
               <NavItem style={navtext} >
                 <NavLink href="#" style={navtextcolr} >Athletes</NavLink>
               </NavItem>
@@ -51,6 +55,9 @@ export default class Example extends React.Component {
           <div style={container}>
 
             <Nav style={navbarstyle2}>
+            <NavItem style={navtext2}>
+                <NavLink style={navtextcolr} href="#">Home</NavLink>
+              </NavItem>
               <NavItem style={navtext2} >
                 <NavLink style={navtextcolr} href="#">Athletes</NavLink>
               </NavItem>
@@ -70,6 +77,9 @@ export default class Example extends React.Component {
           <div style={container3}>
 
             <Nav style={navbarstyle3}>
+            <NavItem style={navtext3}>
+                <NavLink style={navtextcolr} href="#">Home</NavLink>
+              </NavItem>
               <NavItem style={navtext3} >
                 <NavLink style={navtextcolr} href="#">Athletes</NavLink>
               </NavItem>
@@ -103,13 +113,14 @@ const container3={
 
 
 const container={
-  paddingTop:'10px',
+ 
   border:'none',
 }
 const navbarstyle = {
   paddingTop: '10px',
   backgroundColor: 'rgba(68, 143, 163, 1)',
   margin: '0 auto',
+ 
   width: '80%',
   textAlign: 'center',
   borderRadius: '15px',
@@ -117,6 +128,7 @@ const navbarstyle = {
 }
 const navbarstyle2 = {
   border:'none',
+  paddingTop: '10px',
   paddingTop: '10px',
   backgroundColor: 'rgba(68, 143, 163, 1)',
   margin: '0 auto',
@@ -138,7 +150,7 @@ const navbarstyle3 = {
 const navtext = {
   color: 'white',
   margin: '0 auto',
-  fontSize: '3.1vw',
+  fontSize: '2.5vw',
 
 }
 const navtext2 = {

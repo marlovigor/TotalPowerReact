@@ -25,6 +25,7 @@ export default class MenuButton extends React.Component {
           menu
         </DropdownToggle>
         <DropdownMenu style={menubutton}>
+        <DropdownItem>Home</DropdownItem>
         <DropdownItem>Meets</DropdownItem>
         <DropdownItem>Gear</DropdownItem>
           <DropdownItem>Athletes</DropdownItem>

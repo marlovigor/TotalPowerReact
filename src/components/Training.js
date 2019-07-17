@@ -17,7 +17,7 @@ const Training = (props) => {
             <CardImg width="100%"  src="/img/3074356-barbell_bodybuilding_effort_exercise_fitness_gym_man_muscles_person_strong_training_weightlifting.jpg" />
             <CardImgOverlay>
               <CardTitle style={text}>Becoming Strength</CardTitle>
-              <CardText style={text2}>Total traing system where your POWER is our Priority</CardText>
+              <CardText style={text2}>Total training system where your POWER is our Priority</CardText>
 
             </CardImgOverlay>
           </Card>
@@ -29,7 +29,7 @@ const Training = (props) => {
             <CardImg width="100%" src="/img/3074356-barbell_bodybuilding_effort_exercise_fitness_gym_man_muscles_person_strong_training_weightlifting.jpg" />
             <CardImgOverlay>
               <CardTitle style={texts1}>Becoming Strength</CardTitle>
-              <CardText style={texts2}>Total traing system where your POWER is our Priority</CardText>
+              <CardText style={texts2}>Total training system where your POWER is our Priority</CardText>
 
             </CardImgOverlay>
           </Card>
@@ -39,10 +39,10 @@ const Training = (props) => {
       <MediaQuery query="(min-device-width: 758px) and (max-device-width: 1024px)">
       <div style={divcontrol2}>
           <Card inverse style={header2}>
-            <CardImg width="100%" src="/img/3074356-barbell_bodybuilding_effort_exercise_fitness_gym_man_muscles_person_strong_training_weightlifting (1).jpg" alt="Card image cap" />
+            <CardImg width="100%" src="/img/3074356-barbell_bodybuilding_effort_exercise_fitness_gym_man_muscles_person_strong_training_weightlifting.jpg" alt="Card image cap" />
             <CardImgOverlay>
-              <CardTitle style={texts1_1}>Becoming Strength</CardTitle>
-              <CardText style={texts2_2}>Total traing system where your POWER is our Priority</CardText>
+              <CardTitle style={texts1_1}>Becoming<br/>Strength</CardTitle>
+              <CardText style={texts2_2}>Total training system where your POWER is our Priority</CardText>
 
             </CardImgOverlay>
           </Card>
@@ -51,10 +51,10 @@ const Training = (props) => {
       <MediaQuery query="(min-device-width: 1024px) and (max-device-width: 2000px)">
         <div style={divcontrol3}>
           <Card inverse style={header3}>
-            <CardImg width="100%" src="/img/3074356-barbell_bodybuilding_effort_exercise_fitness_gym_man_muscles_person_strong_training_weightlifting (1).jpg" alt="Card image cap" alt="Card image cap" />
+            <CardImg width="100%" src="/img/3074356-barbell_bodybuilding_effort_exercise_fitness_gym_man_muscles_person_strong_training_weightlifting.jpg" alt="Card image cap" alt="Card image cap" />
             <CardImgOverlay>
-              <CardTitle style={texts1_2}>Becoming Strength</CardTitle>
-              <CardText style={texts2_3}>Total traing system where your POWER is our Priority</CardText>
+              <CardTitle style={texts1_2}>Becoming <br/> Strength</CardTitle>
+              <CardText style={texts2_3}>Total training system where your POWER is our Priority</CardText>
 
             </CardImgOverlay>
           </Card>
@@ -123,38 +123,43 @@ const texts2 = {
 }
 //no more mobile display
 const divcontrol2 = {
-  
+  border:'0px',
   // paddingTop: '10px',
 }
 
 const header2 = {
-  border:'none',
+  border:'0px',
   overflow: 'hidden',
   margin: '0 auto',
   width: '100%',
-  height: '15%',
+  
   
   boxShadow: '0px 32px 32px rgba(0, 0, 0, 0.25)',
 
 }
 
 const texts1_1= {
+  margin:'0px',
   position: 'relative',
   top: '40px',
-  fontSize: '3.4vw',
+  fontSize: '6.2vw',
+  left:'20px',
   color: 'red',
+  fontFamily: 'Black Ops One ,cursive',
   width: '50%',
 }
 
 const texts2_2 = {
   position: 'relative',
   textAlign:'center',
-  width: '30%',
-  fontSize: '2.4vw',
-  top: '-10px',
+  width: '40%',
+  fontSize: '4.1vw',
+  top: '40px',
+  fontFamily: 'Anton, sans-serif',
   float: 'right',
   bottom: '80px',
-  left: '-50px',
+  
+  left: '10px',
 
 }
 
@@ -166,32 +171,38 @@ const divcontrol3 = {
 }
 
 const header3 = {
-  border:'none',
+  border:'0px',
   overflow: 'hidden',
   margin: '0 auto',
   width: '100%',
-  height: '15%',
+  
   
   boxShadow: '0px 32px 32px rgba(0, 0, 0, 0.25)',
 
 }
 
 const texts1_2= {
+  margin:'0px',
   position: 'relative',
-  top: '-20px',
-  fontSize: '2.5vw',
-  color: 'orange',
+  top: '40px',
+  fontSize: '6.2vw',
+  left:'20px',
+  color: 'red',
+  fontFamily: 'Black Ops One ,cursive',
   width: '50%',
 }
 
 const texts2_3 = {
   position: 'relative',
-  width: '30%',
-  color: 'orange',
-  fontSize: '1.2vw',
+  textAlign:'center',
+  width: '40%',
+  fontSize: '6.2vw',
+  top: '-100px',
+  fontFamily: 'Anton, sans-serif',
   float: 'right',
-  bottom: '70px',
-  left: '20px',
+  bottom: '80px',
+  
+  left: '10px',
 
 }
 
