@@ -73,10 +73,12 @@ const Header = (props) => {
 
 
 const title1={
-  transform: 'rotate(-15deg)',
+  transform: 'rotate(-20deg)',
 fontSize:'5.8vw',
 position:'relative',
-right:'30px',
+textAlign:'center',
+// right:'30px',
+left:'-30px',
 top:'20px',
 color:'rgba(215, 38, 61, 1)',
 fontFamily: 'Faster One ,cursive',
@@ -99,10 +101,10 @@ const title2={
     transform: 'rotate(-5deg)',
     textAlign:'center',
     top:'-15px',
-    fontSize:'4.1vw',
+    fontSize:'4.5vw',
     margin:'0 auto',
     color:'white',
-    fontFamily: 'Black Ops One, cursive',
+    fontFamily: 'Faster One ,cursive',
     }
 
     const header1_1 ={

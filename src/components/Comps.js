@@ -125,15 +125,13 @@ const text3={
   fontSize:'6.3vw',
   position:'relative',
   margin:'0 auto',
-  
   fontFamily: 'Black Ops One ,cursive',
   
 }
 const header4={
   
   margin:'0 auto',
-top:'20px',
-
+  top:'20px',
   width: '100%',
   height:'100%',
   

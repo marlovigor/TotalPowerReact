@@ -9,7 +9,7 @@ const Product = (props) => {
       <MediaQuery query="(min-device-width: 284px) and (max-device-width: 480px)">
         <div style={divcontrol}>
           <Card inverse style={header1}>
-            <CardImg width="100%" style={{ borderRadius: '15px' }} src="https://smhttp-ssl-59557.nexcesscdn.net/media/catalog/product/cache/1/image/750x/17f82f742ffe127f42dca9de82fb58b1/w/i/wide-alt.jpg" alt="Card image cap" />
+            <CardImg width="100%" style={{ borderRadius: '15px' }} src="https://www.elitefts.com/wp/wp-content/uploads/2016/10/Plater-1.jpg" alt="Card image cap" />
             <CardImgOverlay>
               <CardTitle style={text}>Shop </CardTitle>
             </CardImgOverlay>

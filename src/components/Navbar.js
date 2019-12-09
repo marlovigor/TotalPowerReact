@@ -113,7 +113,7 @@ const container3={
 
 
 const container={
- 
+  marginTop: '10px',
   border:'none',
 }
 const navbarstyle = {

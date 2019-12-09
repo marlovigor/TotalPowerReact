@@ -17,7 +17,7 @@ class Athletes extends React.Component {
       <MediaQuery query="(min-device-width: 284px) and (max-device-width: 480px)">
         <div style={divcontrol}>
           <Card inverse style={header1}>
-            <CardImg width="100%" style={{borderRadius:'15px'}} src="https://madnessmedia.net/wp-content/uploads/2018/08/Thumb-no-bars-1-8-758x426.jpg" alt="Card image cap" />
+            <CardImg width="100%" style={{borderRadius:'15px'}} src="https://www.bodybuilding.com/images/2019/april/the-sumo-deadlift-from-the-ground-up-with-stefi-cohen-header-960x540.jpg" alt="Card image cap" />
             <CardImgOverlay>
               <CardTitle style={text}>The Athletes</CardTitle>
             </CardImgOverlay>
@@ -27,7 +27,7 @@ class Athletes extends React.Component {
       <MediaQuery query="(min-device-width: 480px) and (max-device-width: 758px)">
         <div style={divcontrol2}>
           <Card inverse style={header2}>
-            <CardImg width="100%" style={{borderRadius:'15px'}} src="https://madnessmedia.net/wp-content/uploads/2018/08/Thumb-no-bars-1-8-758x426.jpg" alt="Card image cap" />
+            <CardImg width="100%" style={{borderRadius:'15px'}} src="https://www.bodybuilding.com/images/2019/april/the-sumo-deadlift-from-the-ground-up-with-stefi-cohen-header-960x540.jpg" alt="Card image cap" />
             <CardImgOverlay>
               <CardTitle style={text2}>The Athletes</CardTitle>
             </CardImgOverlay>

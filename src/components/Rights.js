@@ -53,7 +53,7 @@ const right={
    color:'white',
     textAlign:'center',
     fontWeight:'bold',
-    fontSize:'2.1em',
+    fontSize:'2.1vw',
     
 
 }
@@ -66,7 +66,7 @@ const listcontainer={
 const listmain={
     position:'relative',
     textAlign:'center',
-    fontSize:'2.2em',
+    fontSize:'2.2vw',
     color:'white',
     listStyle:'none',
     width:'100%',
