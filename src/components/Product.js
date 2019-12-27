@@ -7,12 +7,19 @@ const Product = (props) => {
   return (
     <div>
       <MediaQuery query="(min-device-width: 284px) and (max-device-width: 480px)">
+      <div style={Shopdiv1}>
+        <ScrollAnimation animateIn='bounceInRight'
+      // animateOut='bounceOutright'
+>
+          <h1 style={ShopLogo1}>
+           SHOP
+          </h1>
+            </ScrollAnimation>
+            </div>
         <div style={divcontrol}>
           <Card inverse style={header1}>
-            <CardImg width="100%" style={{ borderRadius: '15px' }} src="https://www.elitefts.com/wp/wp-content/uploads/2016/10/Plater-1.jpg" alt="Card image cap" />
-            <CardImgOverlay>
-              <CardTitle style={text}>Shop </CardTitle>
-            </CardImgOverlay>
+            <CardImg width="100%" src="https://www.elitefts.com/wp/wp-content/uploads/2016/10/Plater-1.jpg" alt="Card image cap" />
+            
           </Card>
         </div>
       </MediaQuery>
@@ -95,22 +102,42 @@ const Product = (props) => {
     </div>
   );
 };
+
+const Shopdiv1 ={
+  position:'relative',
+  margin:'0 auto',
+  maxwidth:'100%;',
+  top:'140px',
+  border: '1px solid red',
+}
+
+const ShopLogo1 ={
+  position:'relative',
+    textAlign:'center',
+    color:'white',
+    margin:'0 auto',
+    width:'50%',
+    fontSize:'4.4vw',
+    textShadow: '4px 4px 4px #000',
+
+
+}
 const divcontrol = {
-  paddingTop: '10px',
-  margin: '0 auto',
-  // borderWidth:' 5px',
-  width: '100%',
-  height: '100%;',
-  // borderRadius:'15px',
+  position:'relative',
+  // // left:'100px',
+  // // margin:'0 auto',
+  top:'160px',
+  border: '1px solid red',
 
 }
 
 const header1 = {
   margin: '0 auto',
-  width: '80%',
-  borderWidth: ' 5px',
-  height: '100%',
-  borderRadius: '15px',
+  width: '85%',
+  border: '5px solid white',
+  // borderWidth: ' 5px',
+  // height: '100%',
+  // borderRadius: '15px',
 
 }
 

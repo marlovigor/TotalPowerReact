@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './components/Header';
-import Navebar from './components/Navbar';
+import SocialMedia from './components/SocialMedia';
+import Navbar from './components/Navbar';
+import SearchBar from './components/SearchBar.js';
 import Training from './components/Training';
 import Athletes from './components/Athletes';
 import Product from  './components/Product';
@@ -16,14 +18,15 @@ function App() {
   return (
     
     <div  className="App">
-
+     <SocialMedia />
      <Header />
-     <Navebar />
+     <Navbar />
+     <SearchBar />
      <Training />
      <Athletes />
-     <Product />
+     {/* <Product />
      <Comps />
-     <Rights />
+     <Rights />  */}
     </div>
 
   );

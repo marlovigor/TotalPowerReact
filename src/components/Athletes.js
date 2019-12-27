@@ -15,28 +15,40 @@ class Athletes extends React.Component {
   return (
     <div>
       <MediaQuery query="(min-device-width: 284px) and (max-device-width: 480px)">
-        <div style={divcontrol}>
+      <div style={nameDiv1}>
+        <ScrollAnimation animateIn='bounceInRight'
+      // animateOut='bounceOutright'
+>
+          <h1 style={athtitle0}>
+            Athlete of the week
+          </h1>
+            <h2 style={athleteh0}>
+              Stefi Cohen
+            </h2>
+            </ScrollAnimation>
+            </div>
+      <div style={divcontrol1}>
+      
           <Card inverse style={header1}>
-            <CardImg width="100%" style={{borderRadius:'15px'}} src="https://www.bodybuilding.com/images/2019/april/the-sumo-deadlift-from-the-ground-up-with-stefi-cohen-header-960x540.jpg" alt="Card image cap" />
+            <CardImg style={stefimage1} src="https://i.ytimg.com/vi/dFI8WeewkpQ/maxresdefault.jpg" alt="Card image cap" />
             <CardImgOverlay>
-              <CardTitle style={text}>The Athletes</CardTitle>
+              
             </CardImgOverlay>
           </Card>
         </div>
+        
       </MediaQuery>
       <MediaQuery query="(min-device-width: 480px) and (max-device-width: 758px)">
         <div style={divcontrol2}>
           <Card inverse style={header2}>
-            <CardImg width="100%" style={{borderRadius:'15px'}} src="https://www.bodybuilding.com/images/2019/april/the-sumo-deadlift-from-the-ground-up-with-stefi-cohen-header-960x540.jpg" alt="Card image cap" />
+            <CardImg width="100%" src="https://www.bodybuilding.com/images/2019/april/the-sumo-deadlift-from-the-ground-up-with-stefi-cohen-header-960x540.jpg" alt="Card image cap" />
             <CardImgOverlay>
-              <CardTitle style={text2}>The Athletes</CardTitle>
+              
             </CardImgOverlay>
           </Card>
         </div>
-      </MediaQuery>
-      <MediaQuery query="(min-device-width: 758px) and (max-device-width: 1024px)">
-      <div style={nameDiv}>
-      <ScrollAnimation animateIn='bounceInRight'
+        <div style={nameDiv}>
+        <ScrollAnimation animateIn='bounceInRight'
       // animateOut='bounceOutright'
 >
           <h1 style={athtitle}>
@@ -46,30 +58,32 @@ class Athletes extends React.Component {
               Stefi Cohen
             </h2>
             </ScrollAnimation>
-            <p style={athleteprofile}>
-                With her deap skill set there is not stopping her fast momentom to the the top
-              </p>
             </div>
-            
-      <div style={divcontrol3}  >
-          <Card inverse style={header3}>
-          <ScrollAnimation animateIn='bounceInLeft'
-          animateOut='bounceOutLeft'>
-            <CardImg width="100%" 
-            style={stefimage}
-            src="https://www.bodybuilding.com/images/2019/april/the-sumo-deadlift-from-the-ground-up-with-stefi-cohen-header-960x540.jpg" alt="Card image cap" />
-            </ScrollAnimation>
+      </MediaQuery>
+      <MediaQuery query="(min-device-width: 758px) and (max-device-width: 2000px)">
+      <div style={divcontrol4}>
+          <Card inverse style={header4}>
+            <CardImg width="100%" src="https://www.bodybuilding.com/images/2019/april/the-sumo-deadlift-from-the-ground-up-with-stefi-cohen-header-960x540.jpg" alt="Card image cap" />
             <CardImgOverlay>
+              
             </CardImgOverlay>
           </Card>
-          
-          <div> 
-          
-          </div>
         </div>
+        <div style={nameDiv4}>
+        <ScrollAnimation animateIn='bounceInRight'
+      // animateOut='bounceOutright'
+>
+          <h1 style={athtitle4}>
+            Athlete of the week
+          </h1>
+            <h2 style={athleteh4}>
+              Stefi Cohen
+            </h2>
+            </ScrollAnimation>
+            </div>
        
       </MediaQuery>
-      <MediaQuery query="(min-device-width: 1024px) and (max-device-width: 2000px)">
+      {/* <MediaQuery query="(min-device-width: 1024px) and (max-device-width: 2000px)">
       <div style={nameDiv}>
       <ScrollAnimation animateIn='bounceInRight'
       // animateOut='bounceOutright'
@@ -102,53 +116,96 @@ class Athletes extends React.Component {
           
           </div>
         </div>
-      </MediaQuery>
+      </MediaQuery> */}
 
     </div>
   );
 }};
 
-const divcontrol={
-   
-    borderRadius: '15px',
-    paddingTop:'10px',
-}
+const divcontrol1={
+  position:'relative',
+  // // left:'100px',
+  // // margin:'0 auto',
+  top:'120px',
+  // maxWidth:'600px',
+ 
+    
+    // width:'20em',
 
-const header1={
+
+  }
+  
+  const header1={
+      margin:'0 auto',
+      width: '80%',
+      borderWidth:' 5px',
+      height:'100%',
+      boxShadow: '0px 32px 32px rgba(0, 0, 0, 0.25)',
+  }
+  
+
+  const stefimage1 ={
+  
+  }
+  // const text1={
+  //     position: 'relative',
+  //     fontSize: '3.2vw',
+  //     top:'80px',
+  //     float:'right',
+  //     left:'40px',
+  //     color:'orange',
+  //     fontFamily: 'Gugi, cursive',
+  
+  
+  // }
+  
+  const nameDiv1={
+    position:'relative',
     margin:'0 auto',
-    width: '80%',
-    borderWidth:' 5px',
-    height:'100%',
-    borderRadius: '15px',
-}
+    maxwidth:'100%;',
+    top:'120px',
+    // border: '9px solid red',
+  
+  }
+  const athtitle0={
+    position:'relative',
+    textAlign:'center',
+    color:'white',
+    margin:'0 auto',
+    width:'50%',
+    fontSize:'3.2vw',
+    textShadow: '4px 4px 4px #000',
+  }
+  
+  const athleteh0={
+    position:'relative',
+    textAlign:'center',
+    margin:'0 auto',
+    width:'50%',
+    fontSize:'5.2vw',
+    color:'Steelblue',
+  
+  
+  }
 
-const text={
-    position: 'relative',
-    fontSize: '3.2vw',
-    top:'80px',
-    float:'right',
-    left:'10px',
-    color:'orange',
-    fontFamily: 'Gugi, cursive',
-
-
-}
-
-// next size 
+// next size 480 780
 
 const divcontrol2={
-    borderRadius: '15px',
-    paddingTop:'10px',
+position:'relative',
+right:'90px',
+margin:'0 auto',
+top:'130px',
+maxWidth:'400px',
+  
+  // width:'20em',
 }
 
 const header2={
     margin:'0 auto',
     width: '80%',
-
     borderWidth:' 5px',
     height:'100%',
-    
-    borderRadius: '15px',
+    boxShadow: '0px 32px 32px rgba(0, 0, 0, 0.25)',
 }
 
 const text2={
@@ -163,74 +220,188 @@ const text2={
 
 }
 
-// next size
-const divcontrol3={
-  position :'relative',
-  width:'70%',
-  height:'20em',
-  clipPath: 'polygon(0 0, 100% 0, 40% 100%, 0% 100%)',
-  // border:'5px solid rgb(148, 45, 45)',
-
-  
-}
-
-const athtitle={
-  color:'white',
-  fontSize:'1.4em',
-}
-
 const nameDiv={
   position:'relative',
-  float:'right',
-  right:'80px',
-  width:'30%',
-  height:'100px',
- 
-  // border:'5px solid rgb(148, 45, 45)',
-  top:'70px',
+left:'280px',
+margin:'0 auto',
+top:'0px',
+maxWidth:'400px',
 }
- const athleteh1={
-   textAlign:'Left',
-   margin:'0 auto',
-   color:'orange',
+const athtitle={
+  color:'white',
+  width:'80%',
+  fontSize:'1.4em',
+  textShadow: '4px 4px 4px #000',
+}
+
+const athleteh1={
+  textAlign:'Left',
+  margin:'0 auto',
+  color:'Steelblue',
 
 
- }
-const stefimage={
-  clipPath: 'polygon(0 0, 100% 0, 40% 100%, 0% 100%)',
-  margin:'0',
+}
+////
+
+// next size
+// const divcontrol3={
+//   position :'relative',
+//   width:'70%',
+//   height:'20em',
+//   clipPath: 'polygon(0 0, 100% 0, 40% 100%, 0% 100%)',
+//   // border:'5px solid rgb(148, 45, 45)',
+
+  
+// }
+
+
+
+ 
+// const stefimage={
+//   clipPath: 'polygon(0 0, 100% 0, 40% 100%, 0% 100%)',
+//   margin:'0',
   
  
+// }
+
+// const athleteprofile={
+//   marginTop:'15px',
+//   color:'white',
+//   fontWeight:'bold',
+//   textAlign:'center',
+//   width:'80%',
+//   fontSize:'1.2em',
+// }
+// // to make iage resize postion and left or right the image
+// const header3={
+//   backgroundColor:'rgba(2, 24, 43, 1)',
+
+//   height:'40em',
+//    width: '100%',
+  
+  
+  
+// }
+
+// const text3={
+//   position: 'relative',
+//   fontSize: '3.2vw',
+//   top:'80px',
+//   float:'right',
+//   left:'10px',
+//   color:'white',
+//   fontFamily: 'Gugi, cursive',
+
+
+// }
+
+
+
+// //////final dsk
+
+// const nameDiv4={
+//   position:'relative',
+//   margin:'0 auto',
+//   left:'10rem',
+//   maxWidth:'280px',
+//   margin:'0px',
+//   top:'50px',
+//   border: '9px solid green',
+
+// }
+// const athtitle3={
+//   position:'relative',
+//   textAlign:'right',
+//   color:'white',
+//   margin:'0 auto',
+//   left:'8em',
+//   width:'50%',
+//   fontSize:'1.2vw',
+//   textShadow: '4px 4px 4px #000',
+// }
+
+// const athleteh4={
+//   border: '20px solid red',
+//   position:'relative',
+//   textAlign:'right',
+//   margin:'0 auto',
+//   left:'4em',
+//   width:'50%',
+//   fontSize:'2.2vw',
+//   color:'Steelblue',
+
+
+// }
+// const divcontrol4={
+//   position:'relative',
+// right:'90px',
+// margin:'0 auto',
+// top:'130px',
+// maxWidth:'400px',
+  // maxWidth:'600px',
+ 
+    
+    // width:'20em',
+
+
+  // }
+
+
+
+  const divcontrol4={
+    position:'relative',
+    right:'75px',
+    margin:'0 auto',
+    top:'50px',
+    maxWidth:'400px',
+    // border: '20px solid red',
+      
+      // width:'20em',
+    }
+
+
+  const header4={
+    margin:'0 auto',
+    right:'2rem',
+    width: '100%',
+    borderWidth:' 5px',
+    height:'100%',
+    boxShadow: '0px 32px 32px rgba(0, 0, 0, 0.25)',
 }
 
-const athleteprofile={
-  marginTop:'15px',
+const text4={
+    position: 'relative',
+    fontSize: '3.2vw',
+    top:'80px',
+    float:'right',
+    left:'10px',
+    color:'orange',
+    fontFamily: 'Gugi, cursive',
+
+
+}
+
+const nameDiv4={
+  position:'relative',
+left:'300px',
+margin:'0 auto',
+top:'-140px',
+maxWidth:'400px',
+
+}
+const athtitle4={
   color:'white',
-  fontWeight:'bold',
-  textAlign:'center',
   width:'80%',
   fontSize:'1.2em',
-}
-// to make iage resize postion and left or right the image
-const header3={
-  backgroundColor:'rgba(2, 24, 43, 1)',
-
-  height:'40em',
-   width: '100%',
-  
-  
-  
+  textShadow: '4px 4px 4px #000',
 }
 
-const text3={
-  position: 'relative',
-  fontSize: '3.2vw',
-  top:'80px',
-  float:'right',
-  left:'10px',
-  color:'white',
-  fontFamily: 'Gugi, cursive',
-
+const athleteh4={
+  textAlign:'Left',
+  margin:'0 auto',
+  color:'Steelblue',
 
 }
+
+
 export default Athletes;
